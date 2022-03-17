@@ -2,19 +2,29 @@
 
 * {
     font-family: monospace;
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body{
+    background: #fcfcfc;
+    font-family: monospace;
 }
 
 header {
     width: 100%;
-    height: 20px;
+    height: 15px;
     position: fixed;
     padding: 15px;
     top: 0;
     left: 0;
     z-index: 5;
-    background: #b3d9ff;
+    background-image: url('images/computer.jpeg');
+    /* background: #b3d9ff; */
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 18px;
+    
 }
